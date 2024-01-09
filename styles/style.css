@@ -74,8 +74,13 @@ header {
 }
 
 .flowers {
-    margin-top: 120px;
-    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 75.05208333333333%;
+    margin: 120px auto 0 auto;
+    /* margin-right: 20px; */
 }
 
 .flowers h2 {
@@ -104,12 +109,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 75.05208333333333%;
+    width: 100%;
     margin: 0 auto;
-}
-
-.item {
-    width: 31%;
 }
 
 .items img {
@@ -265,11 +266,141 @@ header {
     line-height: 30px;
     margin-bottom: 48px;
 }
-.images{
+
+.images {
     display: flex;
     gap: 24px;
 }
-.images img{
+
+.images img {
     width: 23.42%;
     height: fit-content;
+}
+
+/* News letter section */
+.newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 75.05208333333333%;
+    height: 449px;
+    margin: 128px auto;
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+    border-radius: 8px;
+    background-repeat: no-repeat;
+}
+
+.sub-div {
+    text-align: center;
+}
+
+.sub-div h2 {
+    color: #272727;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.sub-div p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 48px;
+}
+
+input[type=email] {
+    width: 500px;
+    height: 64px;
+    padding: 22px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+input[type=email]:focus {
+    outline: none;
+}
+
+input[type=submit] {
+    cursor: pointer;
+    color: #FFF;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 14px;
+    border-radius: 8px;
+    background: #E55473;
+    width: 150px;
+    height: 64px;
+    margin-left: 10px;
+}
+
+.footer-area {
+    background: #111010;
+    width: 100%;
+    height: 449px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foot-div {
+    text-align: center;
+}
+
+.footer-area .foot-div h3 {
+    color: #FFF;
+    font-family: 'Lato';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.color2 {
+    color: #E55473;
+    font-family: 'Lato';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.footer-area .foot-div h4 {
+    width: 625px;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.footer-area .foot-div .copy {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
